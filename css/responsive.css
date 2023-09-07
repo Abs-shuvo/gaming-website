@@ -1,0 +1,22 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+    /* nav section */
+    nav , .gamer-btn{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+    .gamer-title{
+        text-align: center;
+        justify-content: center;
+    }
+    .gamer-btn{
+        text-align: center;
+    }
+    .yt{
+        position: relative;
+        left: 27%;
+    }
+}

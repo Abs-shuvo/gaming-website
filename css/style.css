@@ -1,0 +1,52 @@
+/* shared code */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    width: 1520px;
+    height: 130px;
+    position: relative;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.gamer-title{
+    display: flex;
+    position: relative; 
+  
+}
+.gamer-title img{
+    width: 86.04px;
+    height: 40px; 
+    position: relative;
+    top:48px;
+    right:0px;
+}
+.gamer-title h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+}
+.gamer-btn{
+    margin-top: 50px;
+    display: flex; 
+}
+.gamer-btn a{
+    text-decoration: none;
+    padding: 20px;
+}
+.yt{
+    margin-top: 18px;
+    background: rgba(11, 2, 35, 0.1);
+    border-radius: 8px;
+    padding-top: 5px;
+    width: 190px;
+    height: 30px;
+}
+/* goat section */
+.goat-section{
+    display: flex;
+    
+}

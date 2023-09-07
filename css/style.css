@@ -146,10 +146,11 @@ nav{
 .gm-img img:hover{
     cursor:grabbing;
 }
-/* play instantly section */
+/* play instantly style */
 .play{
     display: flex;
     padding-left:200px ;
+    margin-bottom:100px;
 }
 .pl-text{
     width: 100%;
@@ -188,4 +189,38 @@ nav{
     position: absolute;
     top: 400px;
     left:60px;
+}
+/* button play style */
+
+.button-play-game{
+    margin-top: 200px;
+    /* display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 30px; */
+   
+    
+}
+.wala-5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.wala-4{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.btn-primary img{
+    width:30px;
+}
+.btn-primary{
+    border: 0px;
+    display: flex;
+    border-radius:50px;
+    max-width: fit-content;
+    max-height: fit-content;
+    cursor: grabbing;
 }

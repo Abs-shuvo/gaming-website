@@ -57,6 +57,7 @@
         padding: 0;
         width: 100%;
         height: 100%;
+        margin-bottom:100px;
     }
     .pl-text{
         text-align: center;
@@ -87,7 +88,23 @@
         right: 30px;
         bottom: 200px;
     }
+    /* button play responsive */
+    .button-play-game{
+        width: 100%;
+    }
+    .wala-5{
+        flex-wrap: wrap;
+    }
+    .wala-4{
+        flex-wrap: wrap;
+    }
 }
+
+
+
+
+
+
 /* tablet device */
 @media screen and (min-width:577px) and (max-width:960px) {
      /* nav responsive */
@@ -143,6 +160,7 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+        margin-bottom:100px;
     }
     .pl-text{
         text-align: center;
@@ -172,5 +190,15 @@
         position: absolute;
         left:-110px;
         bottom: 40px;
+    }
+    /* button play responsive */
+    .button-play-game{
+        width: 100%;
+    }
+    .wala-5{
+        flex-wrap: wrap;
+    }
+    .wala-4{
+        flex-wrap: wrap;
     }
 }

@@ -48,5 +48,59 @@ nav{
 /* goat section */
 .goat-section{
     display: flex;
+    justify-content: space-between;
     
+}
+.goat , .goat-img{
+    width: 100%;
+}
+.goat-text{
+    margin-left: 200px;
+}
+.goat-text h2{
+    color: #0b0223;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 48px;
+}
+.goat-text h1{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.goat-text >ul >li{
+    list-style:none;
+    line-height: 20px;
+}
+.goat-btn{
+    margin-top: 40px;
+}
+.goat-btn> .btn-1{
+    background:  rgba(255, 66, 165, 1);
+    border: 0px;
+    border-radius: 48px;
+    padding: 20px;
+    gap: 10px;
+    width: 120px;
+    height: 60px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.goat-btn> .btn-2{
+    background:#4ec5f7;
+    border: 0px;
+    border-radius: 48px;
+    padding: 20px;
+    gap: 10px;
+    width: 120px;
+    height: 60px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
 }
